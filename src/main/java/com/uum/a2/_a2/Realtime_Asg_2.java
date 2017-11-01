@@ -23,20 +23,21 @@ public class Realtime_Asg_2 {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         String absoluteFilePath1 = "";
-        workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
-
+        
         System.out.println("My Thread 2");
         runFiles a = new runFiles(path);
-
+        System.out.println("My Thread 2 : " + path);
+        
         System.out.println("");
         System.out.println("My Thread 1");
         absoluteFilePath1 = workingDirectory + File.separator + filename + "/MyThread1.java";
         String path2 = absoluteFilePath1;
         runFiles b = new runFiles(path2);
-
+        System.out.println("My Thread 1 : " + path2);
         XSSFWorkbook wb = new XSSFWorkbook();
         XSSFSheet sheet = wb.createSheet("Assignment 2");
         Object[][] datatypes = {{"Semester", a.getSem(path)},
@@ -107,7 +108,7 @@ public class Realtime_Asg_2 {
         try {
             String FILE_NAME = workingDirectory + File.separator + "Realtime Assignment 2.xlsx";
            
-            FileOutputStream fis = new FileOutputStream(new File( FILE_NAME.replace("\\", "/")));
+            FileOutputStream fis = new FileOutputStream(new File( FILE_NAME));
             wb.write(fis);
             //wb.close();
         } catch (Exception e) {

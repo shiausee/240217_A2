@@ -5,7 +5,7 @@
 //Matrik: #123456
 //Name: #Ali bin Abu Bakar
 
-package Test_files.Assignment2;
+package Assignment2_TestFiles;
 
 class MyThread2 extends Thread {
 
