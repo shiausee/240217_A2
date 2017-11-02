@@ -51,7 +51,7 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         File f = new File(path);
@@ -77,14 +77,14 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         File f = new File(path);
         BufferedReader br = new BufferedReader(new FileReader(f));
         String comment = "";
         count instance = new count();
-        int expResult = 4;
+        int expResult = 5;
         int result = 0;
         while ((comment = br.readLine()) != null) {
             result = instance.blank(comment);
@@ -104,14 +104,14 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         File f = new File(path);
         BufferedReader br = new BufferedReader(new FileReader(f));
         String LOC = "";
         count instance = new count();
-        int expResult = 29;
+        int expResult = 30;
         int result = 0;
         while ((LOC = br.readLine()) != null) {
             result = instance.lineOfCode(LOC);
@@ -133,7 +133,7 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         File f = new File(path);
@@ -162,7 +162,7 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;;
         count instance = new count();
@@ -182,7 +182,7 @@ public class countTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         count instance = new count();

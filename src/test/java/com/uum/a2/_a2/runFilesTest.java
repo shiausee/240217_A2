@@ -47,7 +47,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -65,7 +65,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -86,7 +86,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -106,7 +106,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -126,7 +126,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -146,7 +146,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
@@ -166,7 +166,7 @@ public class runFilesTest {
         String workingDirectory = System.getProperty("user.dir");
         String absoluteFilePath = "";
         workingDirectory.replace("\\", "/");
-        String filename = "/STIW3054-RT-Programming-master/src/Assignment2_TestFiles";
+        String filename = "Assignment2_TestFiles";
         absoluteFilePath = workingDirectory + File.separator + filename + "/MyThread2.java";
         String path = absoluteFilePath;
         runFiles instance = new runFiles(path);
